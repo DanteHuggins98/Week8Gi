@@ -1,0 +1,38 @@
+body{
+    background-color: #fff0f5;
+}
+.featProduct{
+    display: grid;
+    text-align: center;
+    padding-top: 3%;
+    grid-template-columns: repeat(4, 1fr);   
+}
+.col-4{
+    display: inline-block;
+    color: #FF57BB;
+    flex-basis: 25%;
+    padding: 15px;
+    min-width: 200px;
+    margin-bottom: 45px;
+}
+.col-4 img{
+    width: 75%;
+}
+
+.newArrival{
+    display: grid;
+    text-align: center;
+    padding-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.col-5{
+    color: #FF57BB;
+    flex-basis: 25%;
+    padding: 15px;
+    min-width: 200px;
+    margin-bottom: 45px;
+}
+.col-5 img{
+    width: 75%;
+}
